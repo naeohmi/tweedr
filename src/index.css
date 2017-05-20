@@ -10,9 +10,17 @@ input[type=text] {
 	font-size: 16px;
 }
 
-#submit {
+#Submit {
 	width: 100px;
 	height: 38px;
 	margin: 10px;
 	font-size: 16px;
+}
+
+.ShowTweedr {
+	width: auto;
+	height: 500px;
+	margin: 0 80px 0 80px;
+	overflow: scroll;
+	border: .5px solid #777777;
 }
