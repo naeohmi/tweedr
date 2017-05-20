@@ -7,9 +7,9 @@ import '../index.css';
 class Input extends Component {
   render() {
     return (
-  	  <div className="createTweedr">
+  	  <div className="CreateTweedr">
   	  	<input type="text" name="tweedr" placeholder="Tweedr here!" />
-      	<button id="submit">Submit</button>
+        <button id="Submit">Submit</button>
       </div>
     );
   }
