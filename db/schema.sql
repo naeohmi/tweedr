@@ -15,4 +15,3 @@ INSERT INTO tweedrfeed (tweed) VALUES
 ('How I got published on Amazon! http://r.ebay.com/ogdiZ5 '),
 ('Tying the knot doesn’t have to cost a fortune. See how this #bride saved over $20K on her #wedding: http://po.st/IbpZyg '),
 ('Learn the differences between a chipotle and an ancho with this video from America’s Test Kitchen: http://lifehac.kr/MzCjosw ')
-
