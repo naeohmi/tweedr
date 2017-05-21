@@ -17,7 +17,7 @@ class App extends Component {
 
 createTweed(record){
     // this pushes a new obj into state.todos array
-     axios.post('https://tweedr.herokuapp.com/api/tweedrfeed', {
+    axios.post('https://tweedr.herokuapp.com/api/tweedrfeed', {
     tweed: record
   })
   .then(function (response) {
@@ -47,8 +47,8 @@ componentDidMount(){
     return (
       <div className="App">
         <Header />
-        <div className="tweedr">
         <Input createTweed={this.createTweed}/>
+        <div className="tweedr">
         <TweedrFeed showallTweeds={this.state.tweed}/>
         </div>
       </div>
