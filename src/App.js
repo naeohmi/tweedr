@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import './App.css';
+// Importing axios to make APIs req/res.
+import axios from 'axios';
+// Importing all components that we want to use in App.js:
 import Header from './components/Header';
 import Input from './components/Input';
 import TweedrFeed from './components/TweedrFeed';
@@ -20,8 +22,8 @@ createTweed(record){
     axios.post('https://tweedr.herokuapp.com/api/tweedrfeed', {
     tweed: record
   })
-  .then(function (response) {
-    console.log(response);
+  .then(function (res) {
+    console.log(res);
     window.location.reload();
   })
   .catch(function (error) {
@@ -34,8 +36,10 @@ showname() {
   let targetURL = "https://tweedr.herokuapp.com/api/tweedrfeed";
     axios.get(targetURL)
   .then((res) => {
-    this.setState({tweed : res.data.data})
-    console.log(this.state.tweed)
+    this.setState({
+      tweed: res.data.data
+    })
+    console.log(this.state.tweed);
   })
  }
 
