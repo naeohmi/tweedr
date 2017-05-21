@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
+import '../index.css';
 
 // Holds one individual tweed.
-class Tweed extends Component {
-  render() {
-    return (
-      
-    );
-  }
+function Tweed(props){
+  
+  return (
+    <h3>{props.tweed}</h3>
+  );
 }
 
 export default Tweed;
