@@ -11,6 +11,7 @@
   margin: 0 auto;
   overflow: scroll;
   padding: 5px;
+  border: 2px solid #384233;
 }
 
 .App-intro {
