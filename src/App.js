@@ -47,8 +47,8 @@ componentDidMount(){
     return (
       <div className="App">
         <Header />
-        <div className="tweedr">
         <Input createTweed={this.createTweed}/>
+        <div className="tweedr">
         <TweedrFeed showallTweeds={this.state.tweed}/>
         </div>
       </div>

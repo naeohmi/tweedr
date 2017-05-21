@@ -4,3 +4,10 @@ body {
   font-family: sans-serif;
   background: rgb(182,215,168);
 }
+
+.createForm {
+  margin: 0 auto;
+  width: 560px;
+  padding: 20px 40px;
+  background: gray;
+}
