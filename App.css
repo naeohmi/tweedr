@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  height: 600px;
+  width: 600px;
+  background: gray;
+  margin: 0 auto;
+  overflow: scroll;
+  padding: 20px;
+}
+
+
+.App-intro {
+  font-size: large;
+}
+.header{
+   margin: 0 auto;
+   text-align: center;
+}
+input , button{
+font-size: 30px;
+}
+.tweedrFeed{
+text-align: left;
+
+}
+h3{
+  background: #fff;
+  padding: 10px;
+}
