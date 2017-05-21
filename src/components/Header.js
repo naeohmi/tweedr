@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../index.css';
 
-class header extends Component {
+// Return the app title.
+class Header extends Component {
   render() {
     return (
       <div className="header">
@@ -12,4 +12,5 @@ class header extends Component {
   }
 }
 
-export default header;
+// Exporting Header to be imported in App component.
+export default Header;
