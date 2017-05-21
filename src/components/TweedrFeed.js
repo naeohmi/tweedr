@@ -8,8 +8,8 @@ class TweedrFeed extends Component  {
 constructor(props) {
     super(props);
     this.state = {
-    };
-    this.componentWillReceiveProps=this.componentWillReceiveProps.bind(this);
+      };
+    this.componentWillReceiveProps = this.componentWillReceiveProps.bind(this);
 }
 
   componentWillReceiveProps() {
