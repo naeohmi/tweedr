@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Cantarell|Handlee');
+
+.App {
+  text-align: center;
+}
+
+.tweedr {
+  height: 450px;
+  width: 650px;
+  background: gray;
+  margin: 0 auto;
+  overflow: scroll;
+  padding: 5px;
+  border: 2px solid #384233;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+input {
+  font-size: 20px;
+  font-family: 'Cantarell', sans-serif;
+  margin: 0 5px;
+  width: 400px;
+}
+
+button {
+  font-size: 20px;
+  font-family: 'Cantarell', sans-serif;
+  margin: 0 5px;
+  background-color: #d1d1d1;
+  border: none;
+}
+
+button:hover {
+  background-color: #79916f;
+}
+
+.tweedrFeed {
+  text-align: left;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Handlee', cursive;
+}
+
+h2 {
+  font-family: 'Cantarell', sans-serif;
+  font-style: italic;
+}
+
+h3 {
+  background: #FFFFFF;
+  padding: 10px;
+}
+
+/* Portrait */
+@media only screen and (max-width: 667px) {
+    h1 {
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    .tweedr {
+      width: 100%;
+    }
+    input {
+      margin: 0;
+      width: 250px;
+    }
+    button {
+      margin: 0;
+    }
+}
